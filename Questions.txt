@@ -1,0 +1,27 @@
+1. Create a directory "LAB2" on your home directory
+2. Inside "LAB2" create SIX sub-directories "PLAIN" "ENC" "DEC" "KEYS" "SIGN" and "HASH"
+3. Inside "PLAIN", create a file "plain.txt"
+4. Edit some meaningful lines of text in "plain.txt".
+
+5. Generate private key and public key inside "KEYS" sub-directory
+
+(SAVE all the encrypted files on "ENC" sub-directory and signature in "SIGN" sub-directory) (THREE files will be created)
+
+6. Encrypt the "plain" file using public key as "enc_public_data"
+7. Encrypt the "plain" file using private key as "enc_private_data"
+8. Sign the "plain" file using private key as "sign_private_data"
+
+(SAVE all the decrypted files on "DEC" sub-directory)
+
+9. Decrypt each encrypted files using their required keys and generate THREE separate files
+   dec_public_private.txt, dec_private_private.txt and dec_private_public.txt respectively.
+
+(SAVE all the calculated hash files on "HASH" sub-directory)
+
+10. Calculate the Hash values of "plain.txt" and any encrypted file using MD5, SHA-1 and rmd160
+ ( SIX files will be created)
+
+11. What difference do you notice in each of the encrypted files?
+12. Are the decrypted files same or different?
+13. Can you generate the plain text from "enc_private_data" using public key?
+14. Hash value of file "enc_public_data" using MD5 algorithm and SHA-1 algorithm is same or different?
